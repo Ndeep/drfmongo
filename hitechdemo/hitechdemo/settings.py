@@ -57,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'rest_api_demo.logging_middleware.AccessLogsMiddleware',
 ]
 
 ROOT_URLCONF = 'hitechdemo.urls'
