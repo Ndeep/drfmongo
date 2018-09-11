@@ -1,4 +1,4 @@
-from django_server_access_logs.models import AccesslogsModel
+from rest_api_demo.models import AccesslogsModel
 from django.conf import settings
 from django.utils import timezone
 
